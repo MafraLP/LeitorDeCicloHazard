@@ -1,7 +1,7 @@
 from instruction import Instruction
 from functions import identificar_instrucao,quantidade_bolhas, contar_ciclos, swap_instrucoes
 
-with open('./dump', 'r') as f:
+with open('dump', 'r') as f:
     instrucoes = f.read().splitlines()
 
 binarios = []
