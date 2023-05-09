@@ -1,12 +1,4 @@
-instOrder = {
-    "auipc" : ['IF', 'ID', 'EXE', 'MEM', 'WB'],
-    "addi" : ['IF', 'ID', 'EXE', 'WB'],
-    'beq' : ['IF', 'ID', 'EXE'],
-    'slli': ['IF','ID','EXE', 'WB'],
-    'add': ['IF', 'ID', 'EXE', 'WB'],
-    'sw': ['IF', 'ID', 'EXE', 'MEM'],
-    'jal': ['IF', 'ID', 'EXE', 'MEM', 'WB']
-}
+instOrder = ['IF', 'ID', 'EXE', 'MEM', 'WB']
 
 opcodes = {
     # Load (5 cycles)
