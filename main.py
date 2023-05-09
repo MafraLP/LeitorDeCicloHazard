@@ -21,9 +21,11 @@ for binario in binarios:
     else:
         print("Instrtucao nao encontrada")
 
+i = 0 
 for inst in instrucoes:
-    print(inst.instructionsOrder)
-    print("RD: " + str(inst.rd))
-    print("RS1: " + str(inst.rs1))
-    print("RS2: " + str(inst.rs2))
+    print('         ' * i, inst.instructionsOrder)
+    i += 1
+    # print("RD: " + str(inst.rd))
+    # print("RS1: " + str(inst.rs1))
+    # print("RS2: " + str(inst.rs2))
 
